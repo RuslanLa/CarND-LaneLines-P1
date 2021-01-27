@@ -11,12 +11,12 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[solidWhiteCurve] (./output_imgs/solidWhiteCurve.jpg "Solid white curve")
-[solidWhiteRight] (./output_imgs/solidWhiteRight.jpg "Solid white right")
-[solidYellowCurve] (./output_imgs/solidYellowCurve.jpg "Solid yellow curve")
-[solidYellowCurve2] (./output_imgs/solidYellowCurve2.jpg "Solid yellow curve 2")
-[solidYellowLeft] (./output_imgs/solidYellowLeft.jpg "Solid yellow left")
-[whiteCarLaneSwitch] (./output_imgs/whiteCarLaneSwitch.jpg "Solid white car lane switch")
+![solidWhiteCurve](./output_imgs/solidWhiteCurve.jpg "Solid white curve")
+![solidWhiteRight](./output_imgs/solidWhiteRight.jpg "Solid white right")
+![solidYellowCurve](./output_imgs/solidYellowCurve.jpg "Solid yellow curve")
+![solidYellowCurve2](./output_imgs/solidYellowCurve2.jpg "Solid yellow curve 2")
+![solidYellowLeft](./output_imgs/solidYellowLeft.jpg "Solid yellow left")
+![whiteCarLaneSwitch](./output_imgs/whiteCarLaneSwitch.jpg "Solid white car lane switch")
 ---
 
 ### Reflection
@@ -29,12 +29,12 @@ Using hough lines I detected lines on a picture, filtered lines again by region 
 
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function and grouped lines by slope in two groups to detect left and right lines. Then I computed median slopes and intercepts of two groups and computed two points for every line using formula: y = slope * x + intercept
 
-![gray] (./output_imgs/pipeline_output/gray.jpg)
-![gray blur] (./output_imgs/pipeline_output/gray_blur.jpg)
-![edges] (./output_imgs/pipeline_output/edges.jpg)
-![image filtered by region] (./output_imgs/pipeline_output/image_filtered_by_region.jpg)
-![hough lines] (./output_imgs/pipeline_output/hough_lines.jpg)
-![solidWhiteCurve] (./output_imgs/solidWhiteCurve.jpg)
+![gray](./output_imgs/pipeline_output/gray.jpg)
+![gray blur](./output_imgs/pipeline_output/gray_blur.jpg)
+![edges](./output_imgs/pipeline_output/edges.jpg)
+![image filtered by region](./output_imgs/pipeline_output/image_filtered_by_region.jpg)
+![hough lines](./output_imgs/pipeline_output/hough_lines.jpg)
+![solidWhiteCurve](./output_imgs/solidWhiteCurve.jpg)
 
 
 ### 2. Identify potential shortcomings with your current pipeline
